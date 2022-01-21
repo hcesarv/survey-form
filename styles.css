@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+
+body{
+    background: url('https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-7991579.jpg&fm=jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(66, 65, 65);
+    background-blend-mode: multiply;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+.first-content {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.first-content label {
+    padding:0;
+    margin-left: 2px;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    border-radius: 5px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+form .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 2vh;
+    position: relative;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.first-content {
+  
+    width: 95%;
+}
+
+
+.first-content select {
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.actor {
+    margin-bottom: 15px;
+}
+
+.actress {
+    margin-bottom: 15px;
+}
+
+.streaming {
+    margin-bottom: 15px;
+}
+
+#comment {
+    width: 99%;
+    height: 10vh;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+#comment::placeholder {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+button {
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    height: 4vh;
+    background-color: #00ac00;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:active {
+    filter: brightness(1.5);
+}
